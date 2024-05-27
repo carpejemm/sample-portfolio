@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cont {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+}
+
+h2 {
+    flex-basis: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    border: 5px solid red;
+    align-items: center;
+    justify-content: center;
+    /* width: 100px; */
+    /* height: 100px; */
+    margin: 5px;
+    background-color: aqua;
+}
+
+.flex-direction {
+    flex-direction: row;
+}
+
+.flex-direction-rr {
+    flex-direction: row-reverse;
+}
+
+.flex-direction-c {
+    flex-direction: column;
+}
+
+.flex-direction-cr {
+    flex-direction: column-reverse;
+}
+
+.flex-wrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-w {
+    flex-wrap: wrap;
+}
+
+.flex-wrap-wr {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-flow {
+    flex-flow: row nowrap;
+}
+
+.flex-flow-cw {
+    flex-flow: column nowrap;
+}
+
+.flex-flow-rrw {
+    flex-flow: row-reverse wrap;
+}
+
+.flex-flow-rrwr {
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.justify-content {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.box-align-items {
+    display: flex;
+    border: 5px solid red;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    /* height: 100px; */
+    margin: 5px;
+    background-color: aqua;
+}
+
+.container-align-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.align-content-fr {
+    align-content: flex-start;
+}
+
+.align-content-fe {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+.align-content-sb {
+    align-content: space-between;
+}
+
+.align-content-sa {
+    align-content: space-around;
+}
+
+.percentage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+} 
+
+.first {
+    width: 50%;
+}
+
+.second {
+    width: 50%;
+}

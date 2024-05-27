@@ -1,0 +1,392 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Demo</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="cont"> <!-- Parent (flex container) -->
+        <div>1</div> <!--- flex item -->
+        <div>2</div> <!--- flex item -->
+        <div>3</div> <!--- flex item -->
+        <div>4</div> <!--- flex item -->
+        <div>5</div> <!--- flex item -->
+    </div>
+
+    <!-- Flex Direction -->
+    <section class="container flex-direction">
+        <h2>flex-direction: row;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <section class="container flex-direction-rr">
+        <h2>flex-direction: row-reverse;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <section class="container flex-direction-c">
+        <h2>flex-direction: column;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <section class="container flex-direction-cr">
+        <h2>flex-direction: column-reverse;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+    </section>
+
+    <!-- Flex Wrap -->
+    <section class="container flex-wrap">
+        <h2>flex-wrap: no-wrap;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </section>
+
+    <section class="container flex-wrap-w">
+        <h2>flex-wrap: wrap;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </section>
+
+    <section class="container flex-wrap-wr">
+        <h2>flex-wrap: wrap-reverse;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </section>
+
+    <!-- Flex Flow -->
+    <section class="container flex-flow">
+        <h2>flex-flow: row nowrap;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </section>
+
+    <section class="container flex-flow-cw">
+        <h2>flex-flow: column wrap;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </section>
+
+    <section class="container flex-flow-rrw">
+        <h2>flex-flow: row-reverse wrap;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </section>
+
+    <section class="container flex-flow-rrwr">
+        <h2>flex-flow: row-reverse wrap-reverse;</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </section>
+
+    <!-- Justify Content -->
+    <h2>justify-content: flex-start</h2>
+    <section class="container justify-content">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <h2>justify-content: flex-end</h2>
+    <section class="container flex-end">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <h2>justify-content: center</h2>
+    <section class="container center">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <h2>justify-content: space-between</h2>
+    <section class="container space-between">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <h2>justify-content: space-around</h2>
+    <section class="container space-around">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <h2>justify-content: space-evenly</h2>
+    <section class="container space-evenly">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </section>
+
+    <!-- Align Items -->
+    <h2>align-items: flex-start</h2>
+    <section class="container-align-item flex-start">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+    </section>
+
+    <h2>align-items: flex-end</h2>
+    <section class="container-align-item flex-end">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+    </section>
+
+    <h2>align-items: center</h2>
+    <section class="container-align-item flex-center">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+    </section>
+
+    <h2>align-items: baseline</h2>
+    <section class="container-align-item baseline">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+    </section>
+
+    <h2>align-items: stretch</h2>
+    <section class="container-align-item stretch">
+        <div class="box-align-items" >1</div>
+        <div class="box-align-items" >2</div>
+        <div class="box-align-items" >3</div>
+        <div class="box-align-items" >4</div>
+        <div class="box-align-items" >5</div>
+    </section>
+
+    <!-- Align Content -->
+    <h2>align-content: flex-start</h2>
+    <section class="container-align-item align-content-fr">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+        <div class="box-align-items" >6</div>
+        <div class="box-align-items" >7</div>
+        <div class="box-align-items" >8</div>
+        <div class="box-align-items" >9</div>
+        <div class="box-align-items" >10</div>
+    </section>
+
+    <h2>align-content: flex-end</h2>
+    <section class="container-align-item align-content-fe">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+        <div class="box-align-items" >6</div>
+        <div class="box-align-items" >7</div>
+        <div class="box-align-items" >8</div>
+        <div class="box-align-items" >9</div>
+        <div class="box-align-items" >10</div>
+    </section>
+
+    <h2>align-content: center</h2>
+    <section class="container-align-item align-content-center">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+        <div class="box-align-items" >6</div>
+        <div class="box-align-items" >7</div>
+        <div class="box-align-items" >8</div>
+        <div class="box-align-items" >9</div>
+        <div class="box-align-items" >10</div>
+    </section>
+
+    <h2>align-content: stretch</h2>
+    <section class="container-align-item align-content-stretch">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+        <div class="box-align-items" >6</div>
+        <div class="box-align-items" >7</div>
+        <div class="box-align-items" >8</div>
+        <div class="box-align-items" >9</div>
+        <div class="box-align-items" >10</div>
+    </section>
+
+    <h2>align-content: space-between</h2>
+    <section class="container-align-item align-content-sb">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+        <div class="box-align-items" >6</div>
+        <div class="box-align-items" >7</div>
+        <div class="box-align-items" >8</div>
+        <div class="box-align-items" >9</div>
+        <div class="box-align-items" >10</div>
+    </section>
+
+    <h2>align-content: space-around</h2>
+    <section class="container-align-item align-content-sa">
+        <div class="box-align-items" style="height: 10px;">1</div>
+        <div class="box-align-items" style="height: 100px;">2</div>
+        <div class="box-align-items" style="height: 50px;">3</div>
+        <div class="box-align-items" style="height: 80px;">4</div>
+        <div class="box-align-items" style="height: 70px;">5</div>
+        <div class="box-align-items" >6</div>
+        <div class="box-align-items" >7</div>
+        <div class="box-align-items" >8</div>
+        <div class="box-align-items" >9</div>
+        <div class="box-align-items" >10</div>
+    </section>
+
+    <!-- Order -->
+    <h2>Order</h2>
+    <section class="container order">
+        <div class="box" style="order: -100;">1</div>
+        <div class="box" style="order: -101;">2</div>
+        <div class="box" style="order: 2;">3</div>
+        <div class="box" style="order: 55;">4</div>
+        <div class="box" style="order: 1;">5</div>
+    </section>
+
+    <!-- Flex grow -->
+    <h2>Flex Grow</h2>
+    <section class="container flex-grow">
+        <div class="box" style="flex-grow: 5;">1</div>
+        <div class="box" style="flex-grow: calc(10*10);">2</div>
+        <div class="box" style="flex-grow: 10.50;">3</div>
+        <div class="box" style="flex-grow: 11;">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+    </section>
+
+    <!-- Align Self -->
+    <h2>Align Self</h2>
+    <section class="container">
+        <div class="box" style="align-self: flex-start;">1</div>
+        <div class="box" style="align-self: flex-end;">2</div>
+        <div class="box" style="align-self: center;">3</div>
+        <div class="box" style="align-self: baseline; height: auto;">4</div>
+        <div class="box" style="align-self: stretch; height: auto;">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+    </section>
+
+
+    <div class="percentage">
+        <div class="box first">Hello World</div>
+        <div class="box second">Hello Philippines</div>
+    </div>
+
+    
+</body>
+</html>
